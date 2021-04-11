@@ -43,26 +43,12 @@ body {
 	margin: 0 auto;
 	margin-bottom: 4rem;
 }
-.filtrar form {
-	width: 100%;
-	display: grid;
-	grid-template: 1fr / 1fr 10rem;
-}
-form input {
+input {
 	height: 4rem;
 	border: none;
-	border-radius: 0.5rem 0 0 0.5rem;
+	border-radius: 0.5rem;
 	padding: 0 1rem;
 	outline: var(--color-primary);
-	width: 100%;
-}
-form button {
-	border: none;
-	border-radius: 0 0.5rem 0.5rem 0;
-	outline: none;
-	cursor: pointer;
-	background: var(--color-secondary);
-	color: var(--color-light);
 	width: 100%;
 }
 
@@ -116,7 +102,7 @@ form button {
 .Dead {
 	background: #d34b4b;
 }
-.Unknown {
+.unknown {
 	background: #afafaf;
 }
 .personaje-body {
